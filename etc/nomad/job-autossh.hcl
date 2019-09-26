@@ -18,7 +18,7 @@ job "autossh" {
           "-o", "ServerAliveCountMax 3",
           "-R", "4544:localhost:44",
           "root@grape.zalad.io",
-          "-p 44"
+          "-p", "44"
         ]
       }
     }
